@@ -58,3 +58,19 @@ p {
   background-color: transparent;
 
 }
+@media screen and (orientation: portrait) {
+  .landing{
+    padding: 1rem;
+  }
+  .landing h1{
+    font-size: 29px;
+  }
+  .buttons{
+    width: 100%;
+    gap: 0;
+    flex-direction: column;
+  }
+  .buttons button{
+    width: 100%;
+  }
+}

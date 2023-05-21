@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
 }
+.bars {
+  display: none;
+}
 .navbar {
   justify-content: space-between;
   color: #f1f1f2;
@@ -10,7 +13,7 @@
   font-size: 20px;
   padding: 1rem 5rem;
 }
-.navbar span{
+.navbar span {
   color: red;
 }
 .navbarRight {
@@ -32,4 +35,35 @@ a {
   background-color: transparent;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+@media screen and (orientation: portrait) {
+  .navbar {
+    padding: 0 1rem;
+    height: 4rem;
+  }
+  .navbar h1 {
+    font-size: 30px;
+    height: 100%;
+    text-align: center;
+    padding: auto;
+    margin-top: 1.3rem;
+  }
+  .navbarLeft {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarRight {
+    display: none;
+  }
+  .bars {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .bars * {
+    height: 2rem;
+  }
 }
