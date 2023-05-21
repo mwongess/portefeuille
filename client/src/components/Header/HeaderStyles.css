@@ -8,7 +8,10 @@
   color: #f1f1f2;
   background-color: #340068;
   font-size: 20px;
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
+}
+.navbar span{
+  color: red;
 }
 .navbarRight {
   height: 100%;
@@ -21,10 +24,10 @@ a {
   color: #f1f1f2;
   text-decoration: none;
 }
-button {
+.navbar button {
   color: #f1f1f2;
   border: 2px solid #f1f1f2;
-  width: 6rem;
+  width: 7rem;
   border-radius: 10px;
   background-color: transparent;
   padding: 0.5rem 1rem;

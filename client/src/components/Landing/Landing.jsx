@@ -5,7 +5,7 @@ export const Landing = () => {
     <>
       <div className="landing">
         <h1>Amos Mwongela</h1>
-        <h3> Data Scientist | Software Engineer</h3>
+        <h3>Software Engineer | Data Scientist</h3>
         <p>
           I possess a comprehensive understanding of both frontend and backend
           development.

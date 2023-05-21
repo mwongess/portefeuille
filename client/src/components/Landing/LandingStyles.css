@@ -29,6 +29,8 @@ p {
   gap: 1.5rem;
 }
 .buttons button {
+  border: 2px solid #f1f1f2;
+  padding: 0.5rem 2rem;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
@@ -48,4 +50,8 @@ p {
 }
 .linkedin * {
   color: #340068;
+}
+.github{
+  background-color: transparent;
+
 }
