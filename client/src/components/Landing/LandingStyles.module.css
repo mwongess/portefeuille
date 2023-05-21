@@ -1,0 +1,41 @@
+.landing,
+.buttons {
+  display: flex;
+}
+.landing {
+    margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+  min-height: 48vh;
+}
+.landing h1 {
+  font-size: 60px;
+}
+.landing h3{
+    font-size: 20px;
+    margin: 0.7rem 0;
+    border-bottom: 1px solid #f1f1f2;
+}
+p {
+  margin-bottom: 0.6rem;
+  font-size: 20px;
+}
+.buttons {
+    gap: 1.5rem;
+}
+.buttons button{
+    margin-top: 2rem;
+    width: 11rem;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.linkedin{
+    background-color: #f1f1f2;
+    font-weight: bold;
+    color: #340068;
+}
+.github{
+
+}

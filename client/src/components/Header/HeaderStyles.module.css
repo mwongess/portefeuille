@@ -1,0 +1,33 @@
+.navbar,
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  justify-content: space-between;
+  color: #f1f1f2;
+  background-color: #340068;
+  font-size: 20px;
+
+  padding: 2rem 5rem;
+}
+.navbarRight {
+  height: 100%;
+  gap: 2rem;
+}
+.navbarRight * {
+  margin: auto 0;
+}
+a {
+  color: #f1f1f2;
+  text-decoration: none;
+}
+button {
+  color: #f1f1f2;
+  border: 2px solid #f1f1f2;
+  width: 6rem;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
