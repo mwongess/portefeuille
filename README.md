@@ -1,1 +1,1 @@
-![#800080](https://via.placeholder.com/15/800080/000000?text=+)Checkout My Portfolio
+## [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Checkout+out+my+portpolio+built+with+ReactJs🤝;)](https://git.io/typing-svg)
