@@ -7,23 +7,25 @@
   margin-top: 5%;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 6rem;
   min-height: 48vh;
+  text-align: center;
+}
+.landing p{
+  margin-top: 1rem;
 }
 .landing h1 {
   font-size: 60px;
   padding-bottom: 1rem;
-
   border-bottom: 1px solid #f1f1f2;
 }
 .landing h3 {
   font-size: 20px;
-  margin: 0.7rem 0;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 p {
-  margin-bottom: 0.6rem;
+  /* margin-bottom: 0.3rem; */
   font-size: 20px;
 }
 .buttons {
@@ -31,11 +33,11 @@ p {
 }
 .buttons button {
   border: 2px solid #f1f1f2;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  width: 11rem;
+  width: 15rem;
   border-radius: 5px;
   font-size: 15px;
 }
