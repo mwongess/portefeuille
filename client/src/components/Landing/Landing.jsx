@@ -1,8 +1,8 @@
-import LandingStyles from "./LandingStyles.module.css";
+import "./LandingStyles.css";
 export const Landing = () => {
   return (
     <>
-      <div className={LandingStyles.landing}>
+      <div className="landing">
         <h1>Amos Mwongela</h1>
         <h3>A Versatile Full Stack Software Engineer✅</h3>
         <p>
@@ -20,9 +20,9 @@ export const Landing = () => {
           NestJs, enabling me to build robust and{" "}
         </p>
         <p>scalable server-side applications.</p>
-        <div className={LandingStyles.buttons}>
-          <button className={LandingStyles.linkedin}>| LinkedIn</button>
-          <button className={LandingStyles.github}>| Github</button>
+        <div className="buttons">
+          <button className="linkedin">| LinkedIn</button>
+          <button className="github">| Github</button>
         </div>
       </div>
     </>
