@@ -1,0 +1,10 @@
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.project{
+    padding: 1rem;
+    border-radius: 5px;
+    color: #340068;
+    background-color: #f2f3f4;
+}
