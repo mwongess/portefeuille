@@ -1,0 +1,29 @@
+.cta{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    color: #340068;
+    margin: 2rem 0;
+}
+.cta-follow{
+    font-size: 45px;
+}
+.cta input,button{
+    height: 3rem;
+    padding: 0 1.5rem;
+}
+.cta input{
+    width: 15%;
+}
+.cta button{
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.7rem;
+    background-color: #340068;
+    color: #f2f3f4;
+}
+.cta-terms  span{
+    text-decoration: underline;
+    cursor: pointer;
+}
