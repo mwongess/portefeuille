@@ -4,7 +4,7 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Landing } from "./components/Landing/Landing";
 import { Projects } from "./components/Projects/Projects";
-import { Cta } from "./components/cta/CTA";
+import { Cta } from "./components/cta/Cta";
 function App() {
   return (
     <>
