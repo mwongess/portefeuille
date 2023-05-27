@@ -77,7 +77,7 @@ p {
 @media screen and (orientation: portrait) {
   .landing {
     padding: 1rem;
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
   .landing h1 {
     font-size: 42px;
