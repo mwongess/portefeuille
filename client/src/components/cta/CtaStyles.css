@@ -22,6 +22,7 @@
     margin-left: 0.7rem;
     background-color: #340068;
     color: #f2f3f4;
+    cursor: pointer;
 }
 .cta-terms  span{
     text-decoration: underline;

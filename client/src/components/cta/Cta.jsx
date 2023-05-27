@@ -8,9 +8,9 @@ export const Cta = ()=>{
             <p>Sign up with your email adress to receive news and updates  </p>
             <div>
                 <input type="email" name="mail" id="" placeholder='Email Adress'/>
-                <button>Signup</button>
+                <button className='cta-signup'>Signup</button>
             </div>
-            <p className='cta-terms'>We respet your privacy.Please read my <span>Terms of Use</span> & <span>Privacy Policy</span>  pages to learn more.</p>
+            <p className='cta-terms'>We respect your privacy.Please read my <span>Terms of Use</span> & <span>Privacy Policy</span>  pages to learn more.</p>
         </div>
         </>
     )
