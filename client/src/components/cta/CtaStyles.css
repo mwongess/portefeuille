@@ -28,3 +28,15 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .cta{
+        padding: 1rem;
+    }
+    .cta input{
+        width: 70%;
+    }
+    .cta button{
+        /* width: 20%; */
+    }
+}
