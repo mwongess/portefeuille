@@ -77,9 +77,16 @@ p {
 @media screen and (orientation: portrait) {
   .landing {
     padding: 1rem;
+    margin-top: 20%;
   }
   .landing h1 {
     font-size: 42px;
+  }
+  .landing h3{
+    font-size: 25px;
+  }
+  .landing p{
+    font-size: 25px;
   }
   .buttons {
     width: 100%;
