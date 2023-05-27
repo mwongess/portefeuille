@@ -12,7 +12,7 @@
   min-height: 48vh;
   text-align: center;
 }
-.landing p{
+.landing p {
   margin-top: 1rem;
 }
 .landing h1 {
@@ -33,7 +33,6 @@ p {
 }
 .buttons button {
   border: 2px solid #f1f1f2;
-  padding: 1rem 2rem;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
@@ -46,35 +45,48 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  text-decoration: none;
 }
 .linkedin {
   background-color: #f1f1f2;
   font-weight: bold;
 }
+.linkedin:hover{
+  opacity: .9;
+  border: none;
+}
 .linkedin * {
+  text-decoration: none;
   color: #340068;
 }
-.github{
+.github {
   background-color: transparent;
-
 }
-.github:hover,a:hover{
-  color: #340068 !important;
+.github a {
+  color: #f1f1f2;
+  width: 100%;
+}
+/* .github:hover{
   background-color: #f1f1f2;
-}
+
+  .github a:hover {
+    color: #340068 !important;
+  }
+} */
+
 @media screen and (orientation: portrait) {
-  .landing{
+  .landing {
     padding: 1rem;
   }
-  .landing h1{
+  .landing h1 {
     font-size: 42px;
   }
-  .buttons{
+  .buttons {
     width: 100%;
     gap: 0;
     flex-direction: column;
   }
-  .buttons button{
+  .buttons button {
     width: 100%;
   }
 }

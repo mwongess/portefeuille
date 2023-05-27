@@ -23,9 +23,12 @@
 .navbarRight * {
   margin: auto 0;
 }
-a {
+.navbarRight p a {
   color: #f1f1f2;
   text-decoration: none;
+}
+.navbarRight p a:hover{
+  text-decoration: underline;
 }
 .navbar button {
   color: #f1f1f2;

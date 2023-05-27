@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./HeaderStyles.css";
 import { FaBars } from "react-icons/fa";
 
@@ -13,13 +13,13 @@ export const Header = () => {
         </div>
         <div className="navbarRight">
           <p>
-            <Link to="">Portfolio</Link>
+            <NavLink to="">Portfolio</NavLink>
           </p>
           <p>
-            <Link to="">About</Link>
+            <NavLink to="">About</NavLink>
           </p>
           <p>
-            <Link to="">Contact</Link>
+            <NavLink to="">Contact</NavLink>
           </p>
           <button>Hire Me</button>
         </div>
