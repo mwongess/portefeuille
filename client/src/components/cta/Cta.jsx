@@ -6,7 +6,7 @@ export const Cta = ()=>{
         <div className="cta">
             <p className='cta-follow'>Follow My Journey</p>
             <p>Sign up with your email adress to receive news and updates  </p>
-            <div>
+            <div className='input-btn'>
                 <input type="email" name="mail" id="" placeholder='Email Adress'/>
                 <button className='cta-signup'>Signup</button>
             </div>
