@@ -58,6 +58,10 @@ p {
   background-color: transparent;
 
 }
+.github:hover,a:hover{
+  color: #340068 !important;
+  background-color: #f1f1f2;
+}
 @media screen and (orientation: portrait) {
   .landing{
     padding: 1rem;

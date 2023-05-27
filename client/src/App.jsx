@@ -4,6 +4,7 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Landing } from "./components/Landing/Landing";
 import { Projects } from "./components/Projects/Projects";
+import { Cta } from "./components/cta/CTA";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
                 <Landing />
               </div>
               <Projects />
+              <Cta/>
             </>
 
           }
