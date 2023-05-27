@@ -5,7 +5,7 @@ export const Landing = () => {
     <>
       <div className="landing">
         <h1>Amos Mwongela</h1>
-        <h3>Software Engineer | Data Scientist</h3>
+        <h3>Software Engineer | Scrum Master</h3>
 
         <p>
           Are you looking for a skilled and versatile full stack developer to
