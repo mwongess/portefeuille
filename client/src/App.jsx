@@ -8,7 +8,12 @@ import { Projects } from "./components/Projects/Projects";
 import { Cta } from "./components/cta/Cta";
 
 function App() {
-
+  const scrollToSection = (sectionId) => {
+    scroll.scrollTo(sectionId, {
+      duration: 800,
+      smooth: 'easeInOutQuart',
+    });
+  };
   return (
     <>
       <Routes>
@@ -17,7 +22,7 @@ function App() {
           element={
             <>
               <div className="main">
-                <Header />
+                <Header func={scrollToSection} />
                 <Landing />
               </div>
               <Projects />

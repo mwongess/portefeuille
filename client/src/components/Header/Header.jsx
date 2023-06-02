@@ -3,14 +3,9 @@ import { NavLink } from "react-router-dom";
 import "./HeaderStyles.css";
 import { FaBars } from "react-icons/fa";
 
-export const Header = () => {
+export const Header = ({scrollToSection}) => {
 
-  const scrollToSection = (sectionId) => {
-    scroll.scrollTo(sectionId, {
-      duration: 800,
-      smooth: 'easeInOutQuart',
-    });
-  };
+
   
   return (
     <>
@@ -24,7 +19,6 @@ export const Header = () => {
           <p>
             <Link to="about"
               spy={true}
-
               smooth={true}
               offset={-70}
               duration={500}
