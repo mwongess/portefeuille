@@ -1,12 +1,9 @@
-import { Link, animateScroll as scroll } from 'react-scroll';
 import { NavLink } from "react-router-dom";
 import "./HeaderStyles.css";
 import { FaBars } from "react-icons/fa";
 
-export const Header = ({scrollToSection}) => {
+export const Header = () => {
 
-
-  
   return (
     <>
       <div className="navbar">
@@ -17,12 +14,7 @@ export const Header = ({scrollToSection}) => {
         </div>
         <div className="navbarRight">
           <p>
-            <Link to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={()=>scrollToSection("projects")}>Projects</Link>
+          <a href='#projects'>Projects</a>
           </p>
           <p>
             <NavLink to="">About</NavLink>
