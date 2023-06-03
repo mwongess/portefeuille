@@ -14,11 +14,13 @@ export const projects = [
     name: "UrlShortener",
     // description: "The ultimate web app that transforms lengthy URLs into concise, shareable links with just a single click. ",
     imageUrl: "/images/projectImages/urlshortener.png",
+    website: "https://longurl-shortener.vercel.app/"
   },
   {
     name: "PhoneBook",
     // description: "Effortlessly store and manage your contacts with my intuitive web app, ensuring seamless organization and efficient management.",
     imageUrl: "/images/projectImages/phonebook.png",
+    website: "https://ngphonebook.netlify.app/"
   },
   {
     name: "JobFilter",

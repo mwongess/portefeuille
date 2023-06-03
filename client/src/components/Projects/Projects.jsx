@@ -13,7 +13,7 @@ export const Projects = () => {
             <div className="project-text">
               <h3>{project.name}</h3>
               <p>{project.description}</p>
-              <button className="learn-more">Learn More</button>
+              <a href={project.website}><button className="learn-more">Learn More</button></a>
             </div>
 
           </div>
