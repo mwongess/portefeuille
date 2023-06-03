@@ -4,7 +4,12 @@ export const projects = [
     description: "",
     imageUrl: "/images/projectImages/taskx.webp",
   },
- 
+  {
+    name: "WaterTracker",
+    description: "Streamline water bill management effortlessly with our intuitive web app. Simplify tracking, payments, and analysis seamlessly ",
+    imageUrl: "/images/projectImages/watertracker.png",
+    website: "https://wartartracker.netlify.app/"
+  },
   {
     name: "UrlShortener",
     description: "The ultimate web app that transforms lengthy URLs into concise, shareable links with just a single click. ",
