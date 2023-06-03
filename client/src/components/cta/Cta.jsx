@@ -3,7 +3,7 @@ import './CtaStyles.css'
 export const Cta = ()=>{
     return (
         <>
-        <div className="cta">
+        <div className="cta" id='cta'>
             <p className='cta-follow'>Follow My Journey</p>
             <p>Sign up with your email adress to receive news and updates  </p>
             <div className='input-btn'>

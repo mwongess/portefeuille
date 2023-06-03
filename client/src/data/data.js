@@ -6,18 +6,18 @@ export const projects = [
   },
   {
     name: "WaterTracker",
-    description: "Streamline water bill management effortlessly with our intuitive web app. Simplify tracking, payments, and analysis seamlessly ",
+    // description: "Streamline water bill management effortlessly with our intuitive web app. Simplify tracking, payments, and analysis seamlessly ",
     imageUrl: "/images/projectImages/watertracker.png",
     website: "https://wartartracker.netlify.app/"
   },
   {
     name: "UrlShortener",
-    description: "The ultimate web app that transforms lengthy URLs into concise, shareable links with just a single click. ",
+    // description: "The ultimate web app that transforms lengthy URLs into concise, shareable links with just a single click. ",
     imageUrl: "/images/projectImages/urlshortener.png",
   },
   {
     name: "PhoneBook",
-    description: "Effortlessly store and manage your contacts with my intuitive web app, ensuring seamless organization and efficient management.",
+    // description: "Effortlessly store and manage your contacts with my intuitive web app, ensuring seamless organization and efficient management.",
     imageUrl: "/images/projectImages/phonebook.png",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
  
   {
     name: "SendIt",
-    description:"Streamline your shipping process with our efficient web app for hassle-free delivery of your items.",
+    // description:"Streamline your shipping process with our efficient web app for hassle-free delivery of your items.",
     imageUrl: "/images/projectImages/sendit.png",
     website: "https://senditt.netlify.app/"
   },
