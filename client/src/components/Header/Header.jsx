@@ -17,10 +17,10 @@ export const Header = () => {
           <a href='#projects'>Projects</a>
           </p>
           <p>
-            <NavLink to="">About</NavLink>
+            <a href="#about">About</a>
           </p>
           <p>
-            <NavLink to="">Contact</NavLink>
+            <a href="#cta">Contact</a>
           </p>
           <button>Hire Me</button>
         </div>
