@@ -18,6 +18,8 @@
 }
 .project img{
   width: 100%;
+  height: 160px;
+  object-fit: cover;
 }
 .project-text{
   text-align: center;
@@ -45,5 +47,8 @@
     .project{
         width: 100%;
         height: fit-content;
+    }
+    .project img{
+      height: auto;
     }
 }
